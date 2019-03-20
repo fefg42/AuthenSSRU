@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         
         print("You Click Register")
         
+    performSegue(withIdentifier: "GoRegister", sender: self)
+        
     }
     
 
