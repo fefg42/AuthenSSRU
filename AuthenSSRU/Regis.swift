@@ -14,17 +14,22 @@ class Regis: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+ 
+    
     } //Main Method
 
-   
-
-    
-    @IBAction func backButton(_ sender: UIBarButtonItem) {
-        
-print("You Click Back")
-performSegue(withIdentifier: "BackMain", sender: self)
  
-        }
+    @IBAction func uploadButton(_ sender: UIBarButtonItem) {
+    }
+    
+    
+    
+   @IBAction func backButton(_ sender: UIBarButtonItem) {
+        
+  print("You Click Back")
+  performSegue(withIdentifier: "BackMain", sender: self)
+ 
+      }
     
 
 } //Main Class
