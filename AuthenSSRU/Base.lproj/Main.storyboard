@@ -86,6 +86,9 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.074743433492410638" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="titleShadowColor" red="1" green="0.79783098899844218" blue="0.63770069492728187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerButtror:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Siz-6x-DAp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -110,6 +113,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="OWp-EI-Sr3" kind="show" identifier="GoRegister" id="9L3-fe-q2A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -128,7 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igb-6b-BuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1142" y="134"/>
+            <point key="canvasLocation" x="926" y="134"/>
         </scene>
     </scenes>
     <resources>
