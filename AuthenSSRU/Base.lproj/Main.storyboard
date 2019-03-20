@@ -139,7 +139,11 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Register" id="vHN-Tp-xVt">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" image="ArrowBack" id="y3D-i2-gCU"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="ArrowBack" id="y3D-i2-gCU">
+                                            <connections>
+                                                <action selector="backButton:" destination="OWp-EI-Sr3" id="dNG-FR-q5k"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -147,6 +151,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sbG-zA-GLP"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="BackMain" id="EoA-BF-mKN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igb-6b-BuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
