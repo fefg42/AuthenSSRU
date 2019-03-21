@@ -64,11 +64,15 @@ class Regis: UIViewController {
         
         present(alert,animated: true,completion: nil)
         
+        } // myAlert
+    
+    func uploadData(name: String,user:String,password: String) -> Void {
+        
+        let uriString: String = "https://www.androidthai.in.th/snru/addDataBreeze.php?isAdd=true&Name=\(name)&User=\(user)&Password=\(password)"
         
         
-    } // myAlert
-    
-    
+        
+    }
     
    @IBAction func backButton(_ sender: UIBarButtonItem) {
         
