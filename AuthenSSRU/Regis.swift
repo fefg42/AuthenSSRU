@@ -9,6 +9,18 @@
 import UIKit
 
 class Regis: UIViewController {
+    
+    // My Outlet
+    
+    
+    @IBOutlet weak var nameTextfielo: UITextField!
+    
+    
+    @IBOutlet weak var userTextfielo: UITextField!
+    
+    @IBOutlet weak var passwordTextfield: UITextField!
+    
+    // End Outlet
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +35,11 @@ class Regis: UIViewController {
         
         print("You Click upload")
         
+        let name = nameTextfielo.text!
+        
+    
+        
+        print("name = \(name)")
     }
     
     
