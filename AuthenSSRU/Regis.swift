@@ -20,6 +20,9 @@ class Regis: UIViewController {
 
  
     @IBAction func uploadButton(_ sender: UIBarButtonItem) {
+        
+        print("You Click upload")
+        
     }
     
     
