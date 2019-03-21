@@ -36,10 +36,16 @@ class Regis: UIViewController {
         print("You Click upload")
         
         let name = nameTextfielo.text!
+        let user = userTextfielo.text!
+        let password = passwordTextfield.text!
         
-    
         
         print("name = \(name)")
+        print("user = \(user)")
+        print("password = \(password)")
+        
+        
+        
     }
     
     
